@@ -1,0 +1,101 @@
+html, body, div, ul, li, p, ol, h1, h2, h3, nav {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 15.625vw; }
+
+body {
+  width: 6.4rem; }
+
+  #index header nav {
+    height: 0.52rem;
+    background-color: #F4F5F6;
+    padding: 0.1rem 0; }
+    #index header nav ul {
+      font-size: 0.25rem; }
+      #index header nav ul li {
+        list-style: none;
+        float: left;
+        margin-right: 0.1rem; }
+        #index header nav ul li a {
+          color: #000000;
+          display: block;
+          line-height: 0.52rem;
+          text-decoration: none;
+          padding: 0 0.02rem; }
+
+#index section {
+  margin-top: 1.6rem; }
+  #index section div {
+    border-top: 1px dashed #000;
+    padding: 0.1rem 0.1rem; }
+  #index section h2 {
+    font-size: 0.24rem;
+    padding: 0.2rem;
+    margin-top: 0.25rem;
+    font-weight: 100; }
+    #index section h2 a {
+      line-height: 0.35rem; }
+  #index section p {
+    margin-top: 0.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    #index section p span {
+      text-align: center;
+      font-size: 0.18rem;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      display: block; }
+
+#box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  padding: 0; }
+  #box h2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    line-height: 0.3rem;
+    padding: 0.1rem 0.1rem; }
+    #box h2 a {
+      color: #000;
+      text-decoration: none;
+      font-family: arial;
+      display: block; }
+  #box p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    #box p img {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      height: 1.26rem;
+      display: block;
+      border: 1px solid #f1f1f1;
+      padding: 1px; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  /* IE9*/
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+.iconfont {
+  color: #fff;
+  font-family: "iconfont" !important;
+  font-size: 66px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  text-align: center; }

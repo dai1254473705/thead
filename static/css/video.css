@@ -1,0 +1,226 @@
+html, header, body, div, summary, h1, h3, figure, figcaption, section, ul, li, a, span, i, img {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+html {
+  font-size: 15.625vw; }
+
+body {
+  width: 6.4rem; }
+
+.content_wrap {
+  margin-top: 0.88rem;
+  position: relative; }
+
+.content {
+  font-size: 0.14rem;
+  margin-bottom: 0.9rem; }
+  .content img {
+    width: 2.4rem;
+    height: 3.2rem; }
+  .content section {
+    box-sizing: border-box; }
+  .content section .cont {
+    padding: 0.32rem 0;
+    margin: 0 0.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.2rem;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 0.01rem solid #333; }
+    .content section .cont div {
+      height: 3.2rem;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
+  .content .cont > div:nth-child(1) {
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    padding-right: 0.1rem;
+    width: 2.4rem; }
+  .content .cont > div:nth-child(2) {
+    line-height: 0.4rem;
+    width: 3.3rem;
+  
+    position: relative; }
+    .content .cont > div:nth-child(2) h1 {
+      font-size: 0.34rem; }
+      .content .cont > div:nth-child(2) h1 a {
+        font-size: 0.34rem; }
+    .content .cont > div:nth-child(2) a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 0.24rem; }
+     .content .cont > div:nth-child(2) h3:last-child{
+     	height:1.23rem;
+     	overflow: hidden;
+     } 
+      .content .cont > div:nth-child(2) h3:nth-child(5){
+     	width: 3.2rem;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+     } 
+    .content .cont > div:nth-child(2) h3:nth-child(6) {
+      width: 0.8rem;
+      height: 0.8rem;
+      background: url(../img/1.jpg) no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      line-height: 0.8rem;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+      color: #fff;
+      -webkit-animation: grad 3s infinite linear;
+              animation: grad 3s infinite linear;
+      z-index: -1;
+      font-size: 0.3rem; }
+@-webkit-keyframes grad {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); } }
+@keyframes grad {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); } }
+.content > section:last-child .cont {
+  border: none; }
+
+.btn {
+  height: 0.8rem;
+  width: 6.4rem; }
+  .btn div {
+    height: 100%;
+    width: 100%; }
+    .btn div label {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin: 0 0.3rem; }
+    .btn div input {
+      height: 0.6rem;
+      width: 5rem;
+      border: 0.01rem solid #333;
+      padding-left: 0.1rem;
+      font-size: 0.24rem; }
+    .btn div button {
+      height: 0.6rem;
+      width: 0.8rem;
+      background: url(../img/video_search.png) no-repeat center;
+      background-size: 0.5rem;
+      border: 0.01rem solid #333;
+      border-left: 0; }
+
+.detalis {
+  position: fixed;
+  left: 0;
+  display: none;
+  top: 0;
+  width: 6.4rem;
+  height: 11.36rem;
+  z-index: 111;
+  zoom: 1; }
+  .detalis:after {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    content: "";
+    clear: both; }
+  .detalis .fix {
+    width: 6.4rem;
+    height: 11.36rem;
+    opacity: 0.8;
+    background: #000; }
+  .detalis button {
+    display: block;
+    height: 0.5rem;
+    width: 0.5rem;
+    background: url(../img/close_video.png) no-repeat center;
+    background-size: 0.5rem;
+    border: 0;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem; }
+  .detalis .txt {
+    position: absolute;
+    left: 0;
+    top: 0.8rem;
+    font-size: 0.36rem;
+    text-indent: 0.72rem;
+    margin: 0.5rem;
+    width: 5.6rem;
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .detalis .txt img {
+      width: auto;
+      height: 4rem;
+      margin-bottom: 0.1rem;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+    .detalis .txt p {
+      display: inline-block;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+    .detalis .txt a {
+      color: #3287C7;
+      font-weight: bold;
+      text-decoration: none; }
+
+header {
+  position: fixed;
+  height: 0.88rem;
+  width: 6.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #D43D3D;
+  left: 0;
+  top: 0;
+  z-index: 110;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  header p {
+    margin-left: 1.4rem;
+    color: #fff;
+    font-size: 0.36rem;
+    font-weight: bold; }
+  header span {
+    height: 0.5rem;
+    width: 0.5rem;
+    display: block;
+    background: url(../img/icon-1.png) no-repeat;
+    background-size: 1.4rem;
+    margin-left: 0.5rem; }

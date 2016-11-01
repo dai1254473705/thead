@@ -1,0 +1,58 @@
+#index header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  #index header #h_t {
+    height: 0.88rem;
+    background-color: #D43D3D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width:6.4rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #index header #h_t a {
+      line-height: 0.88rem;
+      font-size: 0.4rem;
+      font-weight: 800;
+      width: 0.5rem;
+      text-decoration: none;
+      height: 0.5rem;
+      background: url(../img/icon-1.png) no-repeat; }
+      #index header #h_t a i {
+        line-height: 0.88rem; }
+    #index header #h_t .l {
+      background-position: 0 0rem;
+      margin-left: 0.3rem;
+      background-size: 1.44rem; }
+    #index header #h_t .r {
+      background-position: -0.95rem -0.03rem;
+      margin-right: 0.4rem;
+      height: 0.44rem;
+      background-size: 1.44rem; }
+    #index header #h_t h2 {
+      text-align: center;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      font-size: 0.45rem;
+      color: #fff;
+      text-shadow: 0 0 2px #fff;
+      line-height: 0.88rem;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: inline-block;
+      vertical-align: middle; }
+      #index header #h_t h2 span {
+        margin-left: 0.2rem;
+        font-size: 0.4rem;
+        vertical-align: middle;
+        width: 0.46rem;
+        height: 0.5rem;
+        display: inline-block;
+        background: url(../img/icon-1.png) no-repeat;
+        background-position: -0.5rem -0.04rem;
+        background-size: 1.44rem; }
